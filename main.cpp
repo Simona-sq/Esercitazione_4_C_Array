@@ -23,7 +23,7 @@ int main()
     // Chiamo le funzioni dichiarate in Utils.hpp e definite in Utils.cpp
     ReadDatas(InputFile, S, n, ptrw, ptrr);
     
-    double V = FinalValue(S, n,ptrw, ptrr);
+    double V = FinalValue(S, n, ptrw, ptrr);
 
     double RoR = RateOfReturn(n, ptrw, ptrr);
     
